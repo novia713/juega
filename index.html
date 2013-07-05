@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Juega!</title>
+    <meta charset="utf-8">
+    <link href="/styles/gaiabb/all.css" rel="stylesheet" type="text/css">
+    <link href="/styles/main.css" rel="stylesheet" type="text/css">
+    <script data-main="scripts/main" src="/components/requirejs/require.js"></script>
+  </head>
+  <body role="application">
+	<section role="region">
+	  <header>
+		<h1>Juega!</h1>
+	  </header>
+	  <div  id="container">
+		<h2>Lotería Primitiva</h2>
+		<h3 id="primitivos"></h3>
+		<button onclick="giveme_nums(49,6);">jugar primitiva</button>
+		<br/><br/>
+		<h2>Euromillones</h2>
+		<h3 id="millones"><span id="euromillones"></span> <span id="estrellas"></span></h3>
+		<button class="recomend" onclick="giveme_nums(50,5);">jugar euromillones</button>
+      </div>
+	  </section>
+
+    <script data-main="scripts/main" src="components/requirejs/require.js"></script>
+  </body>
+</html>
+

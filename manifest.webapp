@@ -1,0 +1,16 @@
+{
+  "name": "Juega!",
+  "description": "Esta app te sugiere números para jugar a la Primitiva y al Euromillón",
+  "launch_path": "/index.html",
+  "icons": {
+    "60": "/app/icons/60.png",
+    "120": "/app/icons/120.png",
+    "128": "/app/icons/128.png"
+  },
+  "developer": {
+    "name": "novia713",
+    "url": "https://github.com/novia713"
+  },
+  "default_locale": "es"
+}
+
