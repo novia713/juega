@@ -6,5 +6,7 @@ requirejs.config({
 });
 
 define(["jquery", "randoms"], function($) {
+	$('#primitivos').html('<br>');
+	$('#euromillones').html('<br>');
 	document.addEventListener("visibilitychange", handleVisibilityChange, false);
 });

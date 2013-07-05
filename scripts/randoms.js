@@ -41,8 +41,10 @@
 
 		function handleVisibilityChange() {
 		    if (document.hidden) {} else {
-		        document.getElementById('progreso').style.display = 'block';
-		        document.getElementById('body').innerHTML = '<div id="espera">Espera, por favor...</div>';
-		        window.location.href = "http://camsmad.leandro.org/?noinstall";
+		        window.location.href = "index.html";
 		    }
+		}
+
+		function about(){
+			location.href="about.html";
 		}
